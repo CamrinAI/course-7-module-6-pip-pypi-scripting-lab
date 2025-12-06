@@ -43,3 +43,4 @@ def test_empty_log_list_creates_empty_file():
         content = file.read()
     assert content == ""
     os.remove(filename)
+
